@@ -19,33 +19,32 @@ const Banner = () => {
             <span className="text-5xl lg:text-8xl font-bold font-body text-black">Satisfy Rentals</span>
           </h1>
           <h1 className="lg:text-[58px] font-semibold leading-none mb-6">
-            <span className="text-2xl lg:text-7xl font-bold font-body">CHOOSE YOUR HOME WITH US</span>
+            <span className="text-2xl lg:text-5xl font-bold font-body">CHOOSE YOUR HOME WITH US</span>
           </h1>
-          <p className="max-w-[600px] w-full flex items-center font-bold font-body2 text-lg lg:text-3xl mb-8">
+          <p className="max-w-[500px] w-full flex items-center font-bold font-body2 text-lg lg:text-3xl mb-8">
           
           </p>
           <div className="flex justify-evenly w-96 mt-10">
           
             <Link href="/uploadHouse">
-              <button className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-lg">
+              <button className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-8 rounded-lg">
                 OWNER
               </button>
             </Link>
             <Link href="/house">
-              <button className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-lg">
+              <button className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-8 rounded-lg">
                 CUSTOMER
               </button>
             </Link>
           </div>
 
-
-          <div className="flex flex-col text-white text-shadow-3xl items-center mt-40 m-auto lg:max-w-[1200px]">
-    
+          <div className="flex flex-col text-white text-shadow-3xl items-center mt-35 m-auto lg:max-w-[800px]">
           <h1 className="lg:text-[55px] font-semibold leading-none mb-6">
             <span className="text-1xl lg:text-2xl font-bold font-body text-red" >Made with</span>
             <span className="text-2xl lg:text-3xl font-bold font-body textcolor-red" style={{ color: 'red' }} >  ❤  </span>
             <span className="text-1xl lg:text-2xl font-bold font-body text-red"> by </span>
-            <span className="text-2xl lg:text-6xl font-bold font-body text-red"> Anurag Roy</span>
+            {/* <span className="text-2xl lg:text-6xl font-bold font-body text-red" href = "https://www.linkedin.com/in/anurag31oct/"> Anurag Roy</span> */}
+            <a href='https://www.linkedin.com/in/anurag31oct/'>Anurag Roy</a>
           </h1>
 
           </div>
