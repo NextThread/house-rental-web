@@ -4,7 +4,7 @@ import { useAuth } from "../../context/AuthContext";
 const UploadHouse = () => {
   const [data, setData] = useState({
     location: "",
-    buy: "",
+    // buy: "",
     rent: "",
     description: "",
     image: "",
@@ -16,7 +16,7 @@ const UploadHouse = () => {
       await uploadHome(data);
       setData({
         location: "",
-        buy: "",
+        // buy: "",
         rent: "",
         description: "",
         image: "",
@@ -47,7 +47,7 @@ const UploadHouse = () => {
               onChange={(e) => setData({ ...data, location: e.target.value })}
             />
           </div>
-          <div className="mb-4">
+          {/* <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2">
               Buy
             </label>
@@ -58,7 +58,7 @@ const UploadHouse = () => {
               required
               onChange={(e) => setData({ ...data, buy: e.target.value })}
             />
-          </div>
+          </div> */}
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2">
               Rent
