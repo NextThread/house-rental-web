@@ -39,7 +39,7 @@ const UploadHouse = () => {
             </br> */}
           </div>
           <div className="block text-center text-red-500 text-1xl font-bold mb-4">
-            User's if found posting fake Rentals Post, will be banned and will not be allowed to use using Urban Rentals anymore
+            User's if found posting fake Rentals Post, will be banned and will not be allowed to use Satisfy Rentals anymore
             {/* <br>
             <h3> </h3>
             </br> */}
@@ -81,8 +81,11 @@ const UploadHouse = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2">
-              Description
+            <label className="block text-gray-700 text-sm font-bold mb-3">
+              Description 
+            </label>
+            <label className="block text-green-700 text-sm mb-1">
+              Kindly add contact number in description 
             </label>
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"

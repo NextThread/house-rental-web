@@ -49,6 +49,9 @@ export default function Signup() {
           <div className="block text-center text-gray-800 text-2xl font-bold mb-4">
             Register
           </div>
+          <div className="block text-center text-green-800 text-1xl font-bold mb-4">
+            Please choose the correct option below
+          </div>
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2">
               Name
