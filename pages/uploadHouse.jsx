@@ -7,7 +7,7 @@ const UploadHouses = () => {
   return (
     <div>
       {user ? (
-        user.isSeller ? (
+        user.isSeller ?(
           <UploadHouse />
         ) : (
           <div className="flex flex-col space-y-2 items-center justify-center mt-10">

@@ -34,6 +34,15 @@ const UploadHouse = () => {
         >
           <div className="block text-center text-gray-800 text-2xl font-bold mb-4">
             Upload House
+            {/* <br>
+            <h3> </h3>
+            </br> */}
+          </div>
+          <div className="block text-center text-red-500 text-1xl font-bold mb-4">
+            User's if found posting fake Rentals Post, will be banned and will not be allowed to use using Urban Rentals anymore
+            {/* <br>
+            <h3> </h3>
+            </br> */}
           </div>
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2">
