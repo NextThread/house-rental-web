@@ -39,7 +39,7 @@ const UploadHouse = () => {
             </br> */}
           </div>
           <div className="block text-center text-red-500 text-1xl font-bold mb-4">
-            User's if found posting fake Rentals Post, will be banned and will not be allowed to use Satisfy Rentals anymore
+            User's if found posting fake Rentals Post, will be banned and will not be allowed to use HousifyMe anymore
             {/* <br>
             <h3> </h3>
             </br> */}

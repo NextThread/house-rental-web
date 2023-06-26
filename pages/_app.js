@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
     return (
       <AuthContextProvider>
         <Head>
-          <title>Satisfy Rentals</title>
+          <title>HousifyMe</title>
           <link
             rel="shortcut icon"
             href="https://firebasestorage.googleapis.com/v0/b/rentalweb-ed0e7.appspot.com/o/Graphicloads-100-Flat-Home.ico?alt=media&token=68af2acb-c887-4b10-b51a-3a4fcd8f1fa3"
@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <AuthContextProvider>
       <Head>
-        <title>Satisfy Rentals</title>
+        <title>HousifyMe</title>
         <link
           rel="shortcut icon"
           href="https://firebasestorage.googleapis.com/v0/b/rentalweb-ed0e7.appspot.com/o/Graphicloads-100-Flat-Home.ico?alt=media&token=68af2acb-c887-4b10-b51a-3a4fcd8f1fa3"

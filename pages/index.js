@@ -16,7 +16,7 @@ const Banner = () => {
             <span className="text-3xl lg:text-6xl font-bold font-body text-grey">Welcome To</span>
           </h1>
           <h1 className="lg:text-[58px] font-semibold leading-none mb-6">
-            <span className="text-5xl lg:text-8xl font-bold font-body text-black">Satisfy Rentals</span>
+            <span className="text-5xl lg:text-8xl font-bold font-body text-black">HousifyMe</span>
           </h1>
           <h1 className="lg:text-[58px] font-semibold leading-none mb-6">
             <span className="text-2xl lg:text-5xl font-bold font-body">CHOOSE YOUR HOME WITH US</span>
