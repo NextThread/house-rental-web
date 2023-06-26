@@ -58,7 +58,7 @@ const Navbar = () => {
         <Link href="/">
         <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 hover:cursor-pointer">
           <ImHome size={30} />
-          <span className="ml-5 text-2xl font-bold font-mono">Welcome to Satisfy Rentals &nbsp;  </span>
+          <span className="ml-5 text-2xl font-bold font-mono">Welcome to HousifyMe &nbsp;  </span>
 
           <h4>   Connect with &nbsp;</h4>
           <h2 style={{ color: 'red' }}>Anurag Roy</h2>
